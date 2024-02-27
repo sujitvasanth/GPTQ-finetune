@@ -1,11 +1,6 @@
 # GPTQ-finetune
-train a GPTQ quantised LLM with a local or hosted custon dataset using PEFT (parameter efficient fine tuning)  and/or run inference with/without the model adapter, this useful for multiple fine-tuned agents
+train a GPTQ quantised LLM with a local or hosted custon dataset using PEFT (parameter efficient fine tuning)  and/or run inference with/without the model adapter, this useful for multiple fine-tuned agents. The generated adapter is here [sujitvasanth/TheBloke-openchat-3.5-0106-GPTQ-PEFTadapterJsonSear ](https://huggingface.co/sujitvasanth/TheBloke-openchat-3.5-0106-GPTQ-PEFTadapterJsonSear) The custom training dataset used is: https://huggingface.co/datasets/sujitvasanth/jsonsearch2 there is a .csv version in this repository
 
-the generated adapter is here [sujitvasanth/TheBloke-openchat-3.5-0106-GPTQ-PEFTadapterJsonSear ](https://huggingface.co/sujitvasanth/TheBloke-openchat-3.5-0106-GPTQ-PEFTadapterJsonSear)
-
-training dataset used: https://huggingface.co/datasets/sujitvasanth/jsonsearch2 there is a .csv version in this repository
-
-# Intructions
 run GPTQ-finetune.py adjusting the location of your GPTQ model, csv file and where to save the generated model adapter
 the example dataset improves the json search capabilities of The Bloke's openchat GPTQ
 
