@@ -3,7 +3,7 @@ train a GPTQ quantised LLM with a local or hosted custon dataset using PEFT (par
 
 the generated adapter is here [sujitvasanth/TheBloke-openchat-3.5-0106-GPTQ-PEFTadapterJsonSear ](https://huggingface.co/sujitvasanth/TheBloke-openchat-3.5-0106-GPTQ-PEFTadapterJsonSear)
 
-training dataset used: https://huggingface.co/datasets/sujitvasanth/jsonsearch2 there id s csv version in this repository
+training dataset used: https://huggingface.co/datasets/sujitvasanth/jsonsearch2 there is a .csv version in this repository
 
 # Intructions
 run GPTQ-finetune.py adjusting the location of your GPTQ model, csv file and where to save the generated model adapter
